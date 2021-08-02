@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>最新动作片-推荐动作片 - k8经典</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />   
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="/statics/img/favicon.ico" type="image/x-icon" />					
+<link rel="stylesheet" href="/statics/font/iconfont.css" type="text/css" />
+<link rel="stylesheet" href="/statics/css/stui_block.css" type="text/css" />
+<link rel="stylesheet" href="/statics/css/stui_block_color.css" type="text/css" />
+<link rel="stylesheet" href="/statics/css/stui_default.css" type="text/css" />	
+<script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="/statics/js/stui_default.js"></script>
+<script type="text/javascript" src="/statics/js/stui_block.js "></script>
+<script type="text/javascript" src="/statics/js/home.js"></script>
+<script>var maccms={"path":"","mid":"1","url":"www.k8jds.com","wapurl":"www.k8jds.com","mob_status":"2"};</script>
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+	<header class="stui-header__top clearfix" id="header-top">
+	<div class="container">	
+		<div class="row">
+			<div class="stui-header_bd clearfix">					
+			    <div class="stui-header__logo">
+					<a class="logo" href="/"></a>										  
+				</div>
+				<div class="stui-header__side">					
+					<ul class="stui-header__user">
+						<li class="visible-xs"><a class="open-popup" href="javascript:;"><i class="icon iconfont icon-viewgallery"></i></a></li>
+					</ul>
+					<script type="text/javascript" src="/statics/js/jquery.autocomplete.js"></script>
+					<div class="stui-header__search"> 
+				        <form id="search" name="search" method="POST" action="/index.php/vod/search.html" onSubmit="return qrsearch();">
+        					<input type="text" id="wd" name="wd" class="mac_wd form-control" value="" placeholder="请输入关键词..."/>
+							<button class="submit" id="searchbutton" type="submit" name="submit"><i class="icon iconfont icon-search"></i></button>							
+						</form>
+				  	</div>				   
+				</div>									
+				<ul class="stui-header__menu type-slide">
+					<li ><a href="/">首页</a></li>
+					                    <li ><a href="/frim/index1.html">电影</a></li>
+                                        <li ><a href="/frim/index2.html">连续剧</a></li>
+                                        <li ><a href="/frim/index3.html">综艺</a></li>
+                                        <li ><a href="/frim/index4.html">动漫</a></li>
+                                        <li ><a href="/index.php/map/index.html">今日更新</a></li>
+				</ul>				
+		  	</div>		
+		</div>	  							    
+	</div>
+</header>
+<div class="popup clearfix">
+	<div class="popup-head bottom-line">
+		<h5 class="title pull-right">全部分类</h5>
+		<a href="javascript:;" class="close-popup">
+			<i class="icon iconfont icon-back"></i>
+		</a>		
+	</div>
+	<div class="popup-body col-pd">		
+		<ul class="tag tag-type">
+			            <li ><a href="/index.php/vod/show/id/1.html">电影</a></li>
+                        <li ><a href="/index.php/vod/show/id/2.html">连续剧</a></li>
+                        <li ><a href="/index.php/vod/show/id/3.html">综艺</a></li>
+                        <li ><a href="/index.php/vod/show/id/4.html">动漫</a></li>
+                        <li ><a href="/index.php/vod/show/id/5.html">动作片</a></li>
+                        <li ><a href="/index.php/vod/show/id/6.html">喜剧片</a></li>
+                        <li ><a href="/index.php/vod/show/id/7.html">爱情片</a></li>
+                        <li ><a href="/index.php/vod/show/id/8.html">科幻片</a></li>
+                        <li ><a href="/index.php/vod/show/id/9.html">恐怖片</a></li>
+                        <li ><a href="/index.php/vod/show/id/10.html">剧情片</a></li>
+                        <li ><a href="/index.php/vod/show/id/11.html">战争片</a></li>
+                        <li ><a href="/index.php/vod/show/id/12.html">国产剧</a></li>
+                        <li ><a href="/index.php/vod/show/id/13.html">港台剧</a></li>
+                        <li ><a href="/index.php/vod/show/id/14.html">日韩剧</a></li>
+                        <li ><a href="/index.php/vod/show/id/15.html">欧美剧</a></li>
+            		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+	$(".stui-header__user li,.stui-header__menu li").click(function(){
+		$(this).find(".dropdown").toggle();		
+		if(stui.browser.useragent.mobile){	
+			$(".MacPlayer").toggle();
+		}
+	});
+	if(stui.browser.useragent.mobile){
+		$(".stui-header__logo .logo").css("background","url(https://www.k8jds.com/statics/img/logo.png) no-repeat");		
+	}else{
+		$(".stui-header__logo .logo").css("background","url(https://www.k8jds.com/statics/img/logo.png) no-repeat");
+	}
+</script>
+    <div class="container">
+        <div class="row">
+        	<!-- 筛选 -->
+            <div class="stui-pannel stui-pannel-bg clearfix">
+				<div class="stui-pannel-box">
+					<div class="stui-pannel_hd">
+												<ul class="stui-screen__list type-slide bottom-line-dot clearfix">
+							<li>
+								<span class="text-muted">按剧情</span>
+							</li>
+							<li  class="active"><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD.html">全部</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E5%96%9C%E5%89%A7/id/5/lang/%E5%9B%BD%E8%AF%AD.html">喜剧</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E7%88%B1%E6%83%85/id/5/lang/%E5%9B%BD%E8%AF%AD.html">爱情</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E6%81%90%E6%80%96/id/5/lang/%E5%9B%BD%E8%AF%AD.html">恐怖</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E5%8A%A8%E4%BD%9C/id/5/lang/%E5%9B%BD%E8%AF%AD.html">动作</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E7%A7%91%E5%B9%BB/id/5/lang/%E5%9B%BD%E8%AF%AD.html">科幻</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E5%89%A7%E6%83%85/id/5/lang/%E5%9B%BD%E8%AF%AD.html">剧情</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E6%88%98%E4%BA%89/id/5/lang/%E5%9B%BD%E8%AF%AD.html">战争</a></li>
+			                			                <li ><a href="/index.php/vod/show/class/%E4%BC%A6%E7%90%86/id/5/lang/%E5%9B%BD%E8%AF%AD.html">伦理</a></li>
+			                							
+						</ul>
+						<ul class="stui-screen__list type-slide bottom-line-dot clearfix">
+							<li>
+								<span class="text-muted">按地区</span>
+							</li>
+							<li  class="active" ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD.html">全部</a></li>
+			                			                    <li ><a href="/index.php/vod/show/area/%E5%A4%A7%E9%99%86/id/5/lang/%E5%9B%BD%E8%AF%AD.html">大陆</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E9%A6%99%E6%B8%AF/id/5/lang/%E5%9B%BD%E8%AF%AD.html">香港</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E7%BE%8E%E5%9B%BD/id/5/lang/%E5%9B%BD%E8%AF%AD.html">美国</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E6%B3%95%E5%9B%BD/id/5/lang/%E5%9B%BD%E8%AF%AD.html">法国</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E8%8B%B1%E5%9B%BD/id/5/lang/%E5%9B%BD%E8%AF%AD.html">英国</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E6%97%A5%E6%9C%AC/id/5/lang/%E5%9B%BD%E8%AF%AD.html">日本</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E9%9F%A9%E5%9B%BD/id/5/lang/%E5%9B%BD%E8%AF%AD.html">韩国</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/area/%E5%BE%B7%E5%9B%BD/id/5/lang/%E5%9B%BD%E8%AF%AD.html">德国</a></li>
+			                    						</ul>
+						<ul class="stui-screen__list type-slide bottom-line-dot clearfix">
+							<li>
+								<span class="text-muted">按年份</span>
+							</li>
+							<li  class="active"><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD.html">全部</a></li>
+			                			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2021.html">2021</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2020.html">2020</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2019.html">2019</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2018.html">2018</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2017.html">2017</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2016.html">2016</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2015.html">2015</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2014.html">2014</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2013.html">2013</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2012.html">2012</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2011.html">2011</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/2010.html">2010</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/year/%E6%9B%B4%E6%97%A9.html">更早</a></li>
+			                    							
+						</ul>
+						<ul class="stui-screen__list type-slide bottom-line-dot clearfix">
+							<li>
+								<span class="text-muted">按语言</span>
+							</li>
+							<li ><a href="/index.php/vod/show/id/5.html">全部</a></li>
+			                			                    <li  class="active" ><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD.html">国语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E8%8B%B1%E8%AF%AD.html">英语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E7%B2%A4%E8%AF%AD.html">粤语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E9%9F%A9%E8%AF%AD.html">韩语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E6%97%A5%E8%AF%AD.html">日语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E6%B3%95%E8%AF%AD.html">法语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%BE%B7%E8%AF%AD.html">德语</a></li>
+			                    			                    <li ><a href="/index.php/vod/show/id/5/lang/%E5%85%B6%E5%AE%83.html">其它</a></li>
+			                    													
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end 筛选 -->
+			
+			<div class="stui-pannel stui-pannel-bg clearfix">
+				<div class="stui-pannel-box">
+					<div class="stui-pannel_hd">
+						<div class="stui-pannel__head active bottom-line clearfix">							
+							<ul class="nav nav-head">
+                        		<li  class="active"><a href="/index.php/vod/show/by/time/id/5/lang/%E5%9B%BD%E8%AF%AD.html">按时间</a></li>
+						        <li ><a href="/index.php/vod/show/by/hits/id/5/lang/%E5%9B%BD%E8%AF%AD.html">按人气</a></li>
+						        <li ><a href="/index.php/vod/show/by/score/id/5/lang/%E5%9B%BD%E8%AF%AD.html">按评分</a></li>
+							</ul>																
+						</div>	
+					</div>
+					<div class="stui-pannel_bd">
+						<ul class="stui-vodlist clearfix">
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index50935.html" title="歼毒先锋2021" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/d1b07676c0aeaaa96770f75c3285b196.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index50935.html" title="歼毒先锋2021">歼毒先锋2021</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">吕良伟,元彪,周海媚</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index49911.html" title="漠北追击" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/e10f77c9fe47a49575d0e477f8a25aad.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index49911.html" title="漠北追击">漠北追击</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">李飞,袁百梓卉</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index49667.html" title="西游之双圣战神" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/7433944ed7be28e1c716e7ae9877a18e.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index49667.html" title="西游之双圣战神">西游之双圣战神</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">陈浩民,丁汇宇,张楚萱</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index49132.html" title="虎胆龙威2国语" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/e8db80a1600861c4ef9817c89081775e.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index49132.html" title="虎胆龙威2国语">虎胆龙威2国语</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">布鲁斯·威利斯,邦妮·比蒂丽娅,威廉·阿瑟东,雷金纳德·维尔约翰逊,弗兰科·内罗</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index48862.html" title="巨蛛" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/ef43fd138bfc6e741c5adadcfc509ec1.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index48862.html" title="巨蛛">巨蛛</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">于荣光,苏宥辰,爱小嚟,周恒远,秦立洋</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index10230.html" title="导火线" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-27/dy_cd69b58ce1fe8f644df0c48332e4122a.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index10230.html" title="导火线">导火线</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">甄子丹,古天乐,邹兆龙,范冰冰,吕良伟,皱兆龙</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index48739.html" title="杀破狼" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/2e23c8062a3b7d525812c91a2c9d2f61.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index48739.html" title="杀破狼">杀破狼</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">甄子丹,洪金宝,任达华,廖启智,吴京,洪天明,张智尧,夏韶声</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index22310.html" title="神偷谍影" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/15571975053.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index22310.html" title="神偷谍影">神偷谍影</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">金城武,陈小春,杨采妮,李绮虹</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index18025.html" title="新唐山大兄" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/154773800015.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index18025.html" title="新唐山大兄">新唐山大兄</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">甄子丹,于荣光,朱茵</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index20780.html" title="花花型警" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/15535175251.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index20780.html" title="花花型警">花花型警</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">余文乐,陈坤,谭俊彦,钟嘉欣</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index47813.html" title="火云传奇国语" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/59a12e9dba5ccc93fea8dba5a2c23ddc.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index47813.html" title="火云传奇国语">火云传奇国语</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">林青霞,莫少聪,吴君如,单立文,巫刚,叶全真,Joseph,Chi</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index47810.html" title="冲击天子门生国语" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/f7ff7a2a3fcd1b008656e05e15350dd3.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index47810.html" title="冲击天子门生国语">冲击天子门生国语</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">刘德华,张耀扬,王祖贤,鲍方,黄光亮,于莉,罗烈,梁锦燊</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index47803.html" title="武侠七公主之天剑绝刀国语" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/150548fb4f6fca7ecfee13eb29f92131.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index47803.html" title="武侠七公主之天剑绝刀国语">武侠七公主之天剑绝刀国语</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">杨紫琼,郑裕玲,刘松仁,张曼玉,张敏,吴君如,关咏荷,陈加玲,张卫健,吴孟达,任达华</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index47786.html" title="咏春1994" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/a10310450e8d5544107dd4cd2f8e30a8.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index47786.html" title="咏春1994">咏春1994</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">杨紫琼,甄子丹,苑琼丹,洪欣,李子雄,徐少强,郑佩佩</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index34496.html" title="十八勇士" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1587802366.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index34496.html" title="十八勇士">十八勇士</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">宋春丽,宋楚炎,祝新运,吴阳子</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index25572.html" title="千门女王之黄雀在后" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/15662637323.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index25572.html" title="千门女王之黄雀在后">千门女王之黄雀在后</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">韦海珊,海俊杰,袁中方,巫奇</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45744.html" title="妖宴洛阳" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1617090275.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45744.html" title="妖宴洛阳">妖宴洛阳</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">赵品霖,石雪婧</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index14505.html" title="蜀山：新蜀山剑侠" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/p2190736863.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index14505.html" title="蜀山：新蜀山剑侠">蜀山：新蜀山剑侠</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">元彪,孟海,郑少秋,李赛凤</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index36555.html" title="赌城大亨II之至尊无敌" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/154876771211.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">超清</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index36555.html" title="赌城大亨II之至尊无敌">赌城大亨II之至尊无敌</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">刘德华,万梓良,邱淑贞,陈国新</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45761.html" title="黄飞鸿之武神林世荣" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1617208451.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45761.html" title="黄飞鸿之武神林世荣">黄飞鸿之武神林世荣</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">陈升卫,郑阳,许振艺,孙蜜唯,辜德超,张武常</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45755.html" title="湘江1934向死而生" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1617111903.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45755.html" title="湘江1934向死而生">湘江1934向死而生</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">陈仕平,洪善键</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45745.html" title="大铸剑师" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1617090409.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45745.html" title="大铸剑师">大铸剑师</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">萧子墨,洋懿</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45675.html" title="新仙鹤神针" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/153822940710.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45675.html" title="新仙鹤神针">新仙鹤神针</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">梁朝伟,梅艳芳,关之琳,刘松仁</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45668.html" title="二杠三" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1616684706.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45668.html" title="二杠三">二杠三</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">时晓飞,姜彤</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45586.html" title="勇者无惧1981" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1616235134.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45586.html" title="勇者无惧1981">勇者无惧1981</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">元彪,梁家仁,关德兴,袁信义</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45568.html" title="燕赤霞猎妖传" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1616222158.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45568.html" title="燕赤霞猎妖传">燕赤霞猎妖传</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">释小龙,徐冬冬,方逸伦,刘亦彤,骆达华,李子雄,李子甜,马丁,张颖冰,曹禹澄,上淇,高赫一,潘易泽,钟夫翔</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45510.html" title="楚留香之盗帅觉醒" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1615956677.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45510.html" title="楚留香之盗帅觉醒">楚留香之盗帅觉醒</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">郭品超,康宁</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45500.html" title="蛇形刁手斗螳螂" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1615892238.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">BD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45500.html" title="蛇形刁手斗螳螂">蛇形刁手斗螳螂</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">夏玲玲,王道,黄家达,陈星,李昆,龙飞</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45494.html" title="古剑奇谭之悲歌咒" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1615875964.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45494.html" title="古剑奇谭之悲歌咒">古剑奇谭之悲歌咒</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">胡文喆,夏若妍,韩丹,蔡宇航,白那日苏</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45492.html" title="胆战心惊" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1615873764.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45492.html" title="胆战心惊">胆战心惊</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">金珈,王蕾,魏峰</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45463.html" title="天堂之猎" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1616125316.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45463.html" title="天堂之猎">天堂之猎</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">武文佳</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45147.html" title="残缺" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1615039876.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45147.html" title="残缺">残缺</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">陈观泰,鹿峰,郭追,罗莽,孙建,潘冰嫦</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45069.html" title="狄仁杰之灾变长安" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1614865820.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45069.html" title="狄仁杰之灾变长安">狄仁杰之灾变长安</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">内详</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index45015.html" title="铜皮铁骨方世玉" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1614672714.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index45015.html" title="铜皮铁骨方世玉">铜皮铁骨方世玉</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">王昭,一龙,王亚斌,侍宣如,刘玉翠</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index44995.html" title="横行不霸道" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1614596915.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index44995.html" title="横行不霸道">横行不霸道</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">王毅</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+														<li class="col-md-6 col-sm-4 col-xs-3">
+								<div class="stui-vodlist__box">
+	<a class="stui-vodlist__thumb lazyload" href="/movie/index44992.html" title="一眉先生" data-original="http://pic.niunuys.net:23319/upload/vod/2017-12-26/1614581177.jpg">						
+		<span class="play hidden-xs"></span>		
+		<span class="pic-text text-right">HD</span>
+	</a>									
+	<div class="stui-vodlist__detail">
+		<h4 class="title text-overflow"><a href="/movie/index44992.html" title="一眉先生">一眉先生</a></h4>
+		<p class="text text-overflow text-muted hidden-xs">钱小豪,徐少强,张迪财,安唯绫,庞景峰,邵老五</p>
+	</div>												
+</div>		<!-- 列表-->											
+							</li>
+													</ul>	
+					</div>
+				</div>				
+			</div>		
+			<ul class="stui-page text-center clearfix">
+	<li><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/1.html">首页</a></li>
+	<li><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/1.html">上一页</a></li>							
+		<li class="hidden-xs active"><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/1.html">1</a></li>
+		<li class="hidden-xs "><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/2.html">2</a></li>
+		<li class="hidden-xs "><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/3.html">3</a></li>
+		<li class="hidden-xs "><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/4.html">4</a></li>
+		<li class="hidden-xs "><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/5.html">5</a></li>
+		<li class="active visible-xs"><span class="num">1/33</span></li>
+	<li><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/2.html">下一页</a></li>
+	<li><a href="/index.php/vod/show/id/5/lang/%E5%9B%BD%E8%AF%AD/page/33.html">尾页</a></li>							
+</ul>
+<!-- 翻页-->
+        </div>
+    </div>
+	<div class="container">
+	<div class="row">
+		<div class="stui-foot clearfix">
+			        <div class="col-pd text-center hidden-xs"> </span><a href="/index.php/rss/baidu.xml" target="_blank" title="网站地图">Sitemap</a>-<a href="/index.php/rss/index.xml" title="rss">RSS订阅</a>-<a href="/index.php/map/index.html" title="rss">今日更新</a>-联系邮箱：<a href="mailto:{maccms:email}"></a></div>	
+				<p class="share bdsharebuttonbox text-center margin-0 hidden-sm hidden-xs"></p>
+			<p class="text-muted text-center visible-xs">© k8经典-<a href="/index.php/map/index.html" title="rss">今日更新</a></p>
+		</div>
+	</div>
+</div>
+<ul class="stui-extra clearfix">
+	<li>
+		<a class="backtop" href="javascript:scroll(0,0)" style="display: none;"><i class="icon iconfont icon-less"></i></a>
+	</li>
+	<li class="hidden-xs">
+		<a class="copylink" href="javascript:;"><i class="icon iconfont icon-share"></i></a>
+	</li>
+	<li class="visible-xs">
+		<a class="open-share" href="javascript:;"><i class="icon iconfont icon-share"></i></a>
+	</li>
+	<li class="hidden-xs">
+		<span><i class="icon iconfont icon-qrcode"></i></span>
+		<div class="sideslip">
+			<div class="col-pd text-center">
+				<p id="qrcode"></p>
+				<p class="margin-0">扫码用手机访问</p>
+			</div>			
+		</div>
+	</li>
+	<li>
+		<a href="/index.php/gbook/index.html"><i class="icon iconfont icon-comments"></i></a>
+	</li>
+</ul>
+<div class="hide"></div>
+<script type="text/javascript" src="/statics/js/xiax.js"></script>
+</body>
+</html>
